@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         {/* Lado Direito: Formulário de Cadastro */}
-        <div className="bg-[var(--color-card)] p-8 rounded-lg shadow-lg border border-gray-200">
+        <div className="bg-[var(--color-card)] p-8 rounded-lg shadow-lg border border-neutral-800">
           <div className="text-center mb-6">
             <h2 className="text-xl font-bold text-[var(--color-text-primary)]">
               CONCLUA O CADASTRO E GARANTA O SEU ACESSO TOTALMENTE GRATUITO
@@ -39,7 +39,7 @@ export default function Hero() {
                 id="cnpj"
                 name="cnpj"
                 placeholder="Digite seu CNPJ"
-                className="w-full bg-white border border-gray-300 rounded-md py-3 px-4 text-[var(--color-text-primary)] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
+                className="w-full bg-[var(--color-background)] border border-neutral-700 rounded-md py-3 px-4 text-[var(--color-text-primary)] placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
               />
             </div>
             <button
