@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  /* Tema Escuro - Alcantara Mendes */
-  --color-background: #0a0a0a; /* Preto sutil */
+  /* Tema Escuro Verde - Alcantara Mendes */
+  --color-background: #0a1a0d; /* Verde muito escuro (quase preto) */
   --color-foreground: #eaeaea; /* Branco suave */
 
-  --color-primary: #4a6b3a; /* Verde do logo Alcantara Mendes */
+  --color-primary: #699834; /* Verde do logo Alcantara Mendes */
   --color-primary-foreground: #fff;
 
-  --color-card: #171717; /* Cinza escuro para cards */
+  --color-card: #162a18; /* Verde escuro para cards */
 
   --color-text-primary: #eaeaea; /* Branco suave para textos principais */
   --color-text-secondary: #a1a1a1; /* Cinza claro para textos secundários */
