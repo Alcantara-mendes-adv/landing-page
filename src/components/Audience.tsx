@@ -22,8 +22,8 @@ export default function Audience() {
   return (
     <section className="bg-[var(--color-card)] py-20">
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-sm font-bold uppercase tracking-[.3em] text-[var(--color-primary)] mb-4">
-          PARA QUEM É ESSA PLATAFORMA
+        <h2 className="text-2xl md:text-2xl font-bold text-[var(--color-primary)] mb-18">
+          PARA QUEM É ESSA PLATAFORMA?
         </h2>
         <div className="mt-12 grid md:grid-cols-3 gap-12">
           {audienceItems.map((item) => (
@@ -31,7 +31,7 @@ export default function Audience() {
               <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-7xl font-bold text-gray-200 -z-0">
                 {item.number}
               </span>
-              <p className="relative z-10 text-lg text-[var(--color-text-secondary)] pt-8">
+              <p className="relative z-10 text-lg text-[var(--color-text-secondary)] pt-12">
                 {item.description}
               </p>
             </div>
